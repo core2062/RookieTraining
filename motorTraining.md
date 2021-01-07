@@ -12,29 +12,29 @@ We use `TalonSRX` to  control motors.
 - **RookieTrainingBaseProject.h**   
  Into the **Motor** folder of your repository
 
- 3. Rename "**RookieTrainingBaseProject.cpp**" and "**RookieTrainingBaseProject.h**" to "**[Your name]MotorsProject.cpp**" and "**[Your name]MotorsProject.h**"  
+ 2. Rename "**RookieTrainingBaseProject.cpp**" and "**RookieTrainingBaseProject.h**" to "**[Your name]MotorsProject.cpp**" and "**[Your name]MotorsProject.h**"  
 
- 4. In the end of the private section of the class in "**[your name]MotorsProject.h**" write the following line of code:  
+ 3. In the end of the private section of the class in "**[your name]MotorsProject.h**" write the following line of code:  
 
         TalonSRX m_motorTest;  
     This initiates a variable called "**m_motorTest**" of type `TalonSRX`, variables of this type must be made for each motor used in a robot subsystem. 
-5. Above the please write the following above the previous line in"**[your name]MotorsProject.h**":
+4. Above the please write the following above the previous line in"**[your name]MotorsProject.h**":
 
         #define TEST_MOTOR_PORT X
     Where X is a number your intrustor will give you based on the device you are using. This line defines the port of a `talonSRX` on the robot you are using and stores it in a varible for later use.
 
-6. At the beggining of "**[your name]MotorsProject.cpp**"place the following:
+5. At the beggining of "**[your name]MotorsProject.cpp**"place the following:
 
         m_motorTest(TEST_MOTOR_PORT)
     This line connects our varible to the real talon allowing us to control the motor that is connected.
 
-7. In the function "**teleopInit**" please write the following:
+6. In the function "**teleopInit**" please write the following:
 
         m_motorTest.Set(ControlMode::PercentOutput, 0);
 
     This causes the talon to Initiate control from the code.
 
-8. In the function teleop write:
+7. In the function teleop write:
 
         m_motorTest.Set(ControlMode::PercentOutput, 0.75);
 

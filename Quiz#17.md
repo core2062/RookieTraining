@@ -6,9 +6,11 @@ Create a Car class with attributes:
 - Brand  
 - Model  
 - Year  
-Create an object of Car:  
+  
+Create an object of Car:
 - BMW  
 - X5  
 - 1999  
+  
 Print the object  
 Use [OnlineGDB.com](OnlineGDB.com).

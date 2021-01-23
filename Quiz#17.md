@@ -5,7 +5,7 @@ Then, create a code to do the following:
 Create a Car class with attributes:
 - Brand  
 - Model  
-- Year
+- Year  
 Create an object of Car:  
 - BMW  
 - X5  

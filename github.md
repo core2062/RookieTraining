@@ -53,12 +53,9 @@
 
 When you are working on a file in vs code you will need to update/sync the GitHub file with the version that you have changed on GitHub, and to do that is easy...
 
-1. Save every file you want to update
+1. Save all files
 2. Click on the branch looking tab on the left side of the screen
 3. Write a commit message and enter
+4. Click the check mark
 
 That's how you commit changes to your files on GitHub.
-
----
-
-## That is all for this lession, have a good day!

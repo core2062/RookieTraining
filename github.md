@@ -10,6 +10,8 @@
 
 > After that verify your account before continuing
 
+---
+
 5. Look to the top left corner where there is a search bar next to the GitHub logo, and search "CORE2062"
 6. Towards the bottom of the nav bar on the left, click on the section labeled "User" and click on the user named "CORE2062"
 

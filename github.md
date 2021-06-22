@@ -19,33 +19,33 @@
 
 ---
 
-7. Now scroll down and click on the repositry called "RookieTraining"
+7. Now scroll down and click on the repository called "RookieTraining"
 
 > Before you do anything else, you need to connect your vs code library...
 > 1. Making a folder named "Projects"
-> 2. Go the the repositry on GitHub and click the green "Code" button and click on the clipboard icon to copy the link
-> 3. Go back to vs code and after clicking on the folder section on the left nav bar, click on "Clone Repositry" and paste the url and enter
+> 2. Go the the repository on GitHub and click the green "Code" button and click on the clipboard icon to copy the link
+> 3. Go back to vs code and after clicking on the folder section on the left nav bar, click on "Clone Repository" and paste the url and enter
 > 4. Select the folder named "Projects"
 > 5. Now at the bottom right there will be a pop up, select "Open"  
 > 
-> Now you are in the repositry
+> Now you are in the repository
 
 ---
 
-8. To make a branch, now that you're in the repositry in vs code, look at the very bottom left of your vs code window and see a branch looking icon and the name of the branch you are connected to, and click on the name
-9. Now you'll be in a search bar, and you can see bwlow it an option labeled "Create Branch", click it
+8. To make a branch, now that you're in the repository in vs code, look at the very bottom left of your vs code window and see a branch looking icon and the name of the branch you are connected to, and click on the name
+9. Now you'll be in a search bar, and you can see bellow it an option labeled "Create Branch", click it
 10. Type in a name and enter, and there you have it, you created a branch
 
-> I will explain how you make a repositry here, but you are not required to make one
+> I will explain how you make a repository here, but you are not required to make one
 > 1. To make one from your account, go to your profile and under the "Repositries" tab, click "New"
-> 2. Now name it, enter a description, make it public or private, and choose what you want the repositry to start with
-> 3. Click "Create repositry"
+> 2. Now name it, enter a description, make it public or private, and choose what you want the repository to start with
+> 3. Click "Create repository"
 >
 > There you have it  
 
-> Here I will also explain how to upload a file to a branch or repositry you're in
-> 1. Go to the main page of the repositry, and look next to the green "Code" button and see the "Add File" button, click it
-> 2. Now you will see a drop down, and click "Upload Files", drag the files you want to upload or browse for them, select them, and enter to upload files to the repositry
+> Here I will also explain how to upload a file to a branch or repository you're in
+> 1. Go to the main page of the repository, and look next to the green "Code" button and see the "Add File" button, click it
+> 2. Now you will see a drop down, and click "Upload Files", drag the files you want to upload or browse for them, select them, and enter to upload files to the repository
 >
 > And you're done with that.
 

@@ -18,7 +18,7 @@ We use `TalonSRX` to  control motors.
 
         TalonSRX m_motorTest;  
     This initiates a variable called "**m_motorTest**" of type `TalonSRX`, variables of this type must be made for each motor used in a robot subsystem. 
-4. Above the please write the following above the previous line in"**[your name]MotorsProject.h**":
+4. Please write the following above the previous line in"**[your name]MotorsProject.h**":
 
         #define TEST_MOTOR_PORT X
     Where X is a number your intrustor will give you based on the device you are using. This line defines the port of a `talonSRX` on the robot you are using and stores it in a varible for later use.
